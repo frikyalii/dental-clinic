@@ -1,0 +1,9 @@
+SAMPLE / FICTIONAL - for software testing only.
+
+Dr. Kulkarni, Obstetrics and Gynaecology
+Date: 30 September 2026
+Patient: Uzma Langde, 28 years, female (PAT-002)
+
+She is currently 22 weeks pregnant (expected delivery date: 4 February 2027). Blood pressure 110/70 mmHg. No known drug allergies. No gestational diabetes.
+She is medically fit for routine dental treatment. For extensive procedures please inform me beforehand.
+Advice: avoid tetracycline-class antibiotics. Paracetamol is the safe analgesic. In late pregnancy avoid lying flat on the back for long; use a left-lateral tilt.

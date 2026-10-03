@@ -1,0 +1,14 @@
+SAMPLE / FICTIONAL - for software testing only.
+
+CLINIC POLICIES
+Opening hours: Monday to Saturday, 10:00 to 19:00. Closed on Sundays and public holidays.
+Cancellation policy: please give at least 24 hours notice. A late-cancellation fee of Rs. 200 applies to appointments cancelled with less than 24 hours notice.
+Advance payment: multi-session treatments (root canal, crowns, bridges, implants) require an advance of 50 percent of the estimated cost at the first session.
+
+STANDARD FEES (Rs.)
+Consultation: 300
+Scaling and polishing: 1,200
+Composite filling: 1,500
+Simple extraction: 800
+Root canal treatment (molar): 8,000
+Ceramic crown: 6,500

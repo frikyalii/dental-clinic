@@ -1,0 +1,36 @@
+body { background: #f3f6fa; }
+.sidebar { position: fixed; inset: 0 auto 0 0; width: 230px; background: #0b2545; padding: 18px 0; overflow-y: auto; z-index: 100; }
+.sidebar .brand { color: #fff; font-size: 1.25rem; font-weight: 700; padding: 0 20px 18px; }
+.sidebar a { display: block; color: #c4d3ea; padding: 10px 20px; text-decoration: none; border-left: 4px solid transparent; }
+.sidebar a:hover { background: #13315c; color: #fff; }
+.sidebar a.active { background: #13315c; color: #fff; border-left-color: #4dabf7; }
+.main-area { margin-left: 230px; }
+.topbar { background: #fff; padding: 12px 24px; border-bottom: 1px solid #dee2e6; }
+.content { padding: 24px; }
+.avatar { width: 56px; height: 56px; border-radius: 50%; background: #0d6efd; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 600; }
+.stat-card { text-decoration: none; color: inherit; }
+.stat-card:hover { box-shadow: 0 .25rem .75rem rgba(0,0,0,.12); }
+.stat-value { font-size: 1.9rem; font-weight: 700; }
+
+/* dental chart */
+.chart-row { display: flex; justify-content: center; gap: 4px; flex-wrap: wrap; }
+.chart-row .gap { width: 18px; }
+.tooth { width: 46px; border: 1px solid #adb5bd; border-radius: 10px 10px 18px 18px; padding: 6px 0; text-align: center; font-weight: 600; font-size: .85rem; cursor: pointer; }
+.tooth:hover { border-color: #0d6efd; box-shadow: 0 0 0 2px #0d6efd55; }
+.legend-dot { display: inline-block; width: 12px; height: 12px; border-radius: 3px; border: 1px solid #adb5bd; margin-right: 4px; }
+
+/* timeline */
+.timeline { list-style: none; margin: 0; padding-left: 26px; border-left: 3px solid #cfe2ff; }
+.timeline li { position: relative; padding: 0 0 18px 14px; }
+.timeline li::before { content: ''; position: absolute; left: -35px; top: 3px; width: 14px; height: 14px; border-radius: 50%; background: #0d6efd; border: 3px solid #f3f6fa; }
+.rx-item { background: #f8f9fa; border-radius: 8px; padding: 8px; }
+
+/* rendered markdown (AI answers, care instructions) */
+.md > :first-child { margin-top: 0; }
+.md > :last-child { margin-bottom: 0; }
+.md p { margin-bottom: .6rem; }
+.md ul, .md ol { padding-left: 1.3rem; margin-bottom: .6rem; }
+.md li { margin-bottom: .2rem; }
+.md h1, .md h2, .md h3, .md h4 { font-size: 1.05rem; font-weight: 700; margin: .9rem 0 .4rem; }
+.md table { width: 100%; margin-bottom: .6rem; border-collapse: collapse; }
+.md th, .md td { border: 1px solid #dee2e6; padding: 4px 8px; }
